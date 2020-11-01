@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CBA2FF10254ECB6300648871 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2FF0F254ECB6300648871 /* AppDelegate.swift */; };
 		CBA2FF12254ECB6300648871 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2FF11254ECB6300648871 /* SceneDelegate.swift */; };
-		CBA2FF14254ECB6300648871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2FF13254ECB6300648871 /* ViewController.swift */; };
 		CBA2FF17254ECB6300648871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2FF15254ECB6300648871 /* Main.storyboard */; };
 		CBA2FF19254ECB6500648871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBA2FF18254ECB6500648871 /* Assets.xcassets */; };
 		CBA2FF1C254ECB6500648871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2FF1A254ECB6500648871 /* LaunchScreen.storyboard */; };
+		CBA2FF24254ECC4100648871 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2FF23254ECC4100648871 /* ViewController.swift */; };
+		CBA2FF26254ECC6200648871 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2FF25254ECC6200648871 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CBA2FF0C254ECB6300648871 /* SecondKadaiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondKadaiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA2FF0F254ECB6300648871 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA2FF11254ECB6300648871 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CBA2FF13254ECB6300648871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBA2FF16254ECB6300648871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBA2FF18254ECB6500648871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBA2FF1B254ECB6500648871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBA2FF1D254ECB6500648871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA2FF23254ECC4100648871 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBA2FF25254ECC6200648871 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				CBA2FF0F254ECB6300648871 /* AppDelegate.swift */,
 				CBA2FF11254ECB6300648871 /* SceneDelegate.swift */,
-				CBA2FF13254ECB6300648871 /* ViewController.swift */,
+				CBA2FF23254ECC4100648871 /* ViewController.swift */,
+				CBA2FF25254ECC6200648871 /* ResultViewController.swift */,
 				CBA2FF15254ECB6300648871 /* Main.storyboard */,
 				CBA2FF18254ECB6500648871 /* Assets.xcassets */,
 				CBA2FF1A254ECB6500648871 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA2FF14254ECB6300648871 /* ViewController.swift in Sources */,
+				CBA2FF24254ECC4100648871 /* ViewController.swift in Sources */,
 				CBA2FF10254ECB6300648871 /* AppDelegate.swift in Sources */,
 				CBA2FF12254ECB6300648871 /* SceneDelegate.swift in Sources */,
+				CBA2FF26254ECC6200648871 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
